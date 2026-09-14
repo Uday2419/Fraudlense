@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Data files (avoid committing large files)
+data/raw/
+data/processed/
+*.csv
+
+# Model artifacts (large files; use Git LFS or separate storage later)
+models/*.pkl
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables (prevent secret leaks)
+.env
